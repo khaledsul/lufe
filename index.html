@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Virtual Business Card</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div id="contactFormSection">
+    <h1>Create Your Virtual Business Card</h1>
+    <form id="contactForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" required><br>
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone"><br>
+      <label for="linkedin">LinkedIn Account:</label>
+      <input type="text" id="linkedin"><br>
+      <label for="job">Job:</label>
+      <input type="text" id="job"><br>
+      <button type="submit">Save</button>
+    </form>
+  </div>
+  <div id="contactInfoSection" style="display: none;">
+    <h1>Your Virtual Business Card</h1>
+    <div id="contactInfo">
+      <!-- Saved contact information will be displayed here -->
+    </div>
+    <button id="deleteButton">Delete Contact Info</button>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
